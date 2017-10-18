@@ -63,7 +63,7 @@ class ArrayComplexPlane(AbsComplexPlane):
         self.fs = []
 
     def apply(self, f):
-        fv=np.vectorize(f)
+        fv = np.vectorize(f)
         self.plane=fv(self.plane)
         self.fs.append(f)
 

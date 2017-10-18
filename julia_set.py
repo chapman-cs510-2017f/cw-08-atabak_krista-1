@@ -14,9 +14,9 @@ import numpy as np
 import matplotlib.pyplot as plt
 import numba as nb
 
-@nb.vectorize([nb.int32(nb.complex128)])
-def julia(c, max=100):
 
+def julia(c, max=100):
+    @nb.vectorize([nb.int32(nb.complex128)])
     def f(z):
         if abs( z ) <= 2:
             n = 0
@@ -36,10 +36,10 @@ def julia(c, max=100):
 
 
 class JuliaPlane(ArrayComplexPlane):
-    def __init__(self, c):
+    def __init__(self, xmin,xmax,xlen,ymin,ymax,ylen,c):
         self.c = c
-        super().__init__(-2,2,1000,-2,2,1000)
-        super().apply(np.vectorize(julia(self.c)))
+        super().__init__(xmin,xmax,xlen,ymin,ymax,ylen)
+        super().apply(julia(self.c))
 
 
     def refresh(self, c):
