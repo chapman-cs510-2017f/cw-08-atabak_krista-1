@@ -12,7 +12,9 @@ from cplane_np import ArrayComplexPlane
 import csv
 import numpy as np
 import matplotlib.pyplot as plt
+import numba as nb
 
+@nb.vectorize([nb.int32(nb.complex128)])
 def julia(c, max=100):
 
     def f(z):
