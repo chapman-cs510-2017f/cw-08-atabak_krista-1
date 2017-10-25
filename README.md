@@ -1,6 +1,6 @@
 # CS510 CW 8
 
-**Author(s):** **CHANGEME**
+**Author(s):** **Atabak & Kristalee**
 
 [![Build Status](https://travis-ci.org/chapman-cs510-2017f/cw-08-YOURNAME.svg?branch=master)](https://travis-ci.org/chapman-cs510-2017f/cw-08-YOURNAME)
 
@@ -27,7 +27,7 @@ def julia(z):
 ```
 ## Assessment
 
-Analyze in this section what you found useful about this assignment in your own words. Include any lingering questions or comments that you may have.
+This assignment introduced us to julia. We don't yet see the power/usefulness in julia, but it's always good to have some knowledge of any language. The syntax for defining a method is cool, defining a function of function such as j0=julia(0,z) was very concise syntax when compared to other languages. && Using vectorization, greatly increases efficiency.
 
 **CHANGEME**
 
@@ -40,4 +40,4 @@ I pledge that all the work in this repository is my own with only the following 
 
 Signed,
 
-**YOURNAME**
+**Atabak & Kristalee**
