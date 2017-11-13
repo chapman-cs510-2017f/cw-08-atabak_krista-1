@@ -2,7 +2,7 @@
 
 **Author(s):** **Atabak & Kristalee**
 
-[![Build Status](https://travis-ci.org/chapman-cs510-2017f/cw-08-YOURNAME.svg?branch=master)](https://travis-ci.org/chapman-cs510-2017f/cw-08-YOURNAME)
+[![Build Status](https://travis-ci.org/chapman-cs510-2017f/cw-08-atabak_krista-1.svg?branch=master)](https://travis-ci.org/chapman-cs510-2017f/cw-08-atabak_krista-1)
 
 ## Specification
 
